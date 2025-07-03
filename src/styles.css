@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url('https://images.pexels.com/photos/26587611/pexels-photo-26587611.jpeg?_gl=1*gae9hg*_ga*Mzk5ODEzMjYzLjE3NTE1NzIxNDA.*_ga_8JE65Q40S6*czE3NTE1NzIxMzkkbzEkZzEkdDE3NTE1NzI1MTkkajUzJGwwJGgw');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .luckiest-guy {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }

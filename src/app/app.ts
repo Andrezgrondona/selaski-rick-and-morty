@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { CharacterListComponent } from './components/character-list/character-list.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  standalone: true,
+  imports: [CharacterListComponent],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
-export class App {
-  protected title = 'SelaskiChallenge';
-}
+export class AppComponent {}
